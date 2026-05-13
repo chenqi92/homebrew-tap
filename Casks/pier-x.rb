@@ -1,8 +1,8 @@
 cask "pier-x" do
-  version "0.5.1"
-  sha256 "0922b62620d5da70468b69f3a7e11ab7b2076968325625b61951b20862f4ea72"
+  version "0.5.2"
+  sha256 "1b959f153b84acde7ce142ce96620166ab68433126573bee8e2f7639ffbc4fd1"
 
-  url "https://github.com/chenqi92/Pier-X/releases/download/v0.5.1/Pier-X_0.5.1_universal.dmg"
+  url "https://github.com/chenqi92/Pier-X/releases/download/v0.5.2/Pier-X_0.5.2_universal.dmg"
   name "Pier-X"
   desc "IDE-style desktop workbench for terminal, Git, SSH, databases, and remote ops"
   homepage "https://github.com/chenqi92/Pier-X"
