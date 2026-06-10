@@ -1,14 +1,14 @@
 class PierX < Formula
   desc "IDE-style desktop workbench for terminal, Git, SSH, databases, and remote ops"
   homepage "https://github.com/chenqi92/Pier-X"
-  url "https://github.com/chenqi92/Pier-X/releases/download/v0.5.3/Pier-X_0.5.3_amd64.AppImage"
-  sha256 "8d5efaa768b7b80c1ff266752587b25110c080410ae250e669be0e7d763eb0da"
+  url "https://github.com/chenqi92/Pier-X/releases/download/v0.6.0/Pier-X_0.6.0_amd64.AppImage"
+  sha256 "99d27876176fb9bcc9f60edb7f632f226575a26d0f30059aa9a4ccc4c1d3e438"
   license "MIT"
 
   depends_on :linux
 
   def install
-    bin.install "Pier-X_0.5.3_amd64.AppImage" => "pier-x"
+    bin.install "Pier-X_0.6.0_amd64.AppImage" => "pier-x"
     chmod 0755, bin/"pier-x"
   end
 
